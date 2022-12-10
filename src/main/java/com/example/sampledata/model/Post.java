@@ -2,7 +2,7 @@ package com.example.sampledata.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "<your-collection-name>")
+@Document(collection = "dummy")
 public class Post {
   private String name;
   private String job;
